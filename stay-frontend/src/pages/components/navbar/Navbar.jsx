@@ -7,7 +7,7 @@ function Navbar() {
     <div className="navbar">
         <div className="navbarContainer">
             <div className="logoContainer">
-              <FontAwesomeIcon icon={faHotel} />
+              <FontAwesomeIcon className='logoIcon' icon={faHotel} />
               <span className="logo">Project Stay</span>
             </div>
             <div className="navItems">

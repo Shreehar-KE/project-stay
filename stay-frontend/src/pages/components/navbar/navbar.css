@@ -30,8 +30,8 @@
     padding: 5px 10px;
     border-radius: 20px;
     background-color: white;
-    border: none;
+    border: 1px solid var(--accent);;
     cursor: pointer;
-    color: var(--primary);
+    color: gray;
     font-weight: 500;
 }
