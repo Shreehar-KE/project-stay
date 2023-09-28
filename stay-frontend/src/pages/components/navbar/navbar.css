@@ -1,6 +1,6 @@
 .navbar {
     height: 50px;
-    background-color:rgb(3, 102, 102);
+    background-color: var(--primary);
     display: flex;
     justify-content: center;
 }
@@ -32,6 +32,6 @@
     background-color: white;
     border: none;
     cursor: pointer;
-    color: rgb(3, 102, 102);
+    color: var(--primary);
     font-weight: 500;
 }

@@ -3,7 +3,7 @@
 }
 
 .header {
-  background-color: rgb(3, 102, 102);
+  background-color: var(--primary);
   color: white;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
 .headerSearch {
   height: 10px;
   background-color: white;
-  border: 3px solid rgb(255, 153, 0);
+  border: 3px solid var(--accent);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -52,12 +52,12 @@
 }
 
 .headerIcon {
-  color: rgb(3, 102, 102);
+  color: var(--primary);
   padding: 0px;
 }
 
 .headerSearchButton {
-  background-color: rgb(3, 102, 102);
+  background-color: var(--primary);
   color: white;
   font-weight: bold;
   border: none;
@@ -101,7 +101,7 @@
   width: 30px;
   background-color: white;
   cursor: pointer;
-  border: 1px solid rgb(3, 102, 102);
+  border: 1px solid var(--primary);
 }
 
 .optionItemCounterButton:disabled {
