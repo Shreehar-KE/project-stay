@@ -1,0 +1,39 @@
+.rList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rItem {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+
+.rImage {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.rItemDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rHotelName {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rCityName {
+    font-weight: 14px;
+    font-weight: 300;
+}

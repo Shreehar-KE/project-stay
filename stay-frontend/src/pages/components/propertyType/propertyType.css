@@ -1,0 +1,37 @@
+.pList {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: center;
+    gap: 20px;
+}
+.pItem {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+
+.pImage {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.pItemDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pTitle {
+    font-weight:600;
+    font-size: 18px;
+}
+.pCount {
+    font-size: 14px;
+    font-weight: 300;
+}
